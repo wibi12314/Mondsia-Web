@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-body{
+body {
     font-family:'Montserrat' sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     background-color: #fa9191;
     justify-content: space-around;
@@ -16,7 +16,7 @@ nav{
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     width: 40%;
@@ -24,8 +24,50 @@ nav ul{
 
 }
 
-nav ul li a{
+nav ul li a {
     color: black;
     text-decoration: none;
     font-size: 0.9em;
+}
+
+/* hamburger menu */
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    opacity: 0.8;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+/* responsive breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+    }
 }
