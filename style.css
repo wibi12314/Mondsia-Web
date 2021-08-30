@@ -121,11 +121,13 @@ nav ul li a {
 .landing {
     text-align: center;
     padding-top: 40px;
+    font-size: 20px;
 }
 
 .landing img {
     width: 1318px;
     height: 502px;
+    padding-top: 10px
 }
 .about h1 {
     text-align: center;
@@ -134,13 +136,19 @@ nav ul li a {
 .about p {
     text-align: center;
     padding-top: 40px;
+    font-size: 20px;
 }
 
-.about img {
+.papua img {
     width: 237px;
     height: 150px;
     padding-top: 60px;
     padding-left: 200px;
-
 }
+.papua h2 {
+    text-align: left;
+    padding-left: 225px
+}
+
+
     
