@@ -118,10 +118,10 @@ nav ul li a {
     }
 }
 
-.landing {
+.landing h1 {
     text-align: center;
     padding-top: 40px;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .landing img {
@@ -139,16 +139,57 @@ nav ul li a {
     font-size: 20px;
 }
 
-.papua img {
+.papua {
+    float: left;
+    position: relative;
+    padding: 25px;
     width: 237px;
     height: 150px;
-    padding-top: 60px;
-    padding-left: 200px;
+    left: 100px;
+    border-radius: 34px;
 }
-.papua h2 {
-    text-align: left;
-    padding-left: 225px
+
+.sumatra {
+    float: left;
+    position: relative;
+    padding: 25px;
+    width: 237px;
+    height: 150px;
+    left: 100px;
+    border-radius: 34px;
 }
+
+.sulawesi {
+    float: left;
+    position: relative;
+    padding: 25px;
+    width: 237px;
+    height: 150px;
+    left: 100px;
+    border-radius: 34px;
+}
+
+.kalimantan {
+    float: left;
+    position: relative;
+    padding: 25px;
+    width: 237px;
+    height: 150px;
+    left: 100px;
+    border-radius: 34px;
+}
+
+.java {
+    position: relative;
+    float: left;
+    padding: 25px;
+    width: 237px;
+    height: 150px;
+    left: 100px;
+    border-radius: 34px;
+}
+
+
 
 
     
