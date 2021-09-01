@@ -8,9 +8,10 @@ body {
     overflow-x: hidden;
 }
 
+/* navbar */
 nav {
     display: flex;
-    background-color: rgb(255, 82, 117);
+    background-color: none;
     justify-content: space-around;
     height: 60px;
     color: black;
@@ -22,6 +23,7 @@ nav ul {
     list-style: none;
     width: 40%;
     justify-content: space-between;
+    font-size: 20px;
 
 }
 
@@ -117,10 +119,12 @@ nav ul li a {
         transform: translateX(0);
     }
 }
+/* end of navbar */
 
-.landing h1 {
+/* landing view section*/
+.landing h2 {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
     font-size: 40px;
 }
 
@@ -129,67 +133,105 @@ nav ul li a {
     height: 502px;
     padding-top: 10px
 }
-.about h1 {
+/* end of landing view section*/
+
+/* about section*/
+.about {
+    width: 80%;
+    margin: auto;
     text-align: center;
+    padding-top: 100px;
+}
+
+.about h1 {
+    font-size: 30px;
+    font-weight: 600;
+    
 }
 
 .about p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-size: 18px;
+    padding-top: 40px
+}
+
+.row {
+     margin: 5px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.row img {
+    width: 237px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.about-col {
+    flex-basis: 50%;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+.row2 {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 img {
+    width: 237px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.about-col2 {
+    flex-basis: 50%;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+.about-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.about-col2:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+} 
+/* end of about section*/
+
+/* culture section */
+
+.culture {
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding-top: 40px;
-    font-size: 20px;
+    padding-top: 100px;
 }
 
-.papua {
-    float: left;
-    position: relative;
-    padding: 25px;
+.culture h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.row3 {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row3 img {
     width: 237px;
     height: 150px;
-    left: 100px;
-    border-radius: 34px;
 }
 
-.sumatra {
-    float: left;
-    position: relative;
-    padding: 25px;
-    width: 237px;
-    height: 150px;
-    left: 100px;
-    border-radius: 34px;
+.culture-col {
+    flex-basis: 35%;
+    padding-top: 25px;
 }
-
-.sulawesi {
-    float: left;
-    position: relative;
-    padding: 25px;
-    width: 237px;
-    height: 150px;
-    left: 100px;
-    border-radius: 34px;
-}
-
-.kalimantan {
-    float: left;
-    position: relative;
-    padding: 25px;
-    width: 237px;
-    height: 150px;
-    left: 100px;
-    border-radius: 34px;
-}
-
-.java {
-    position: relative;
-    float: left;
-    padding: 25px;
-    width: 237px;
-    height: 150px;
-    left: 100px;
-    border-radius: 34px;
-}
-
-
-
-
-    
