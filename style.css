@@ -18,6 +18,22 @@ nav {
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+nav img {
+    width: 59px;
+    height: 67px;
+
+}
+
 nav ul {
     display: flex;
     list-style: none;
