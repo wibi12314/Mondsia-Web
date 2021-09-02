@@ -14,7 +14,7 @@ nav {
     background-color: none;
     justify-content: space-around;
     height: 60px;
-    color: black;
+    color:black;
     align-items: center;
 }
 
@@ -25,7 +25,7 @@ nav {
 
 .logo img {
     padding-right: 25px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 nav img {
@@ -142,6 +142,7 @@ nav ul li a {
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
+    color:red
 }
 
 .landing img {
@@ -228,26 +229,33 @@ nav ul li a {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    border-radius: none;
 }
 
-.culture h1 {
-    font-size: 30px;
-    font-weight: 600;
+.culture p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+.culture col {
+    flex-basis: 45%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.culture-col img {
+    width: 227px;
+    height: 145px;
+    padding: 30px;
 }
 
-.row3 {
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
+.culture-col:hover {
+    box-shadow: 0 0 20px 0px red;
 }
+/* end of landing page */
 
-.row3 img {
-    width: 237px;
-    height: 150px;
-}
-
-.culture-col {
-    flex-basis: 35%;
-    padding-top: 25px;
+.landing-jawa img {
+    width: 1372px;
+    height: 654px;
+    padding-top: 10px;
+    filter: brightness(50%);
 }
