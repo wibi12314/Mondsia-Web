@@ -49,6 +49,21 @@ nav ul li a {
     font-size: 0.9em;
 }
 
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+
 /* hamburger menu */
 
 .menu-toggle {
@@ -258,4 +273,93 @@ nav ul li a {
     height: 654px;
     padding-top: 10px;
     filter: brightness(50%);
+}
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box p {
+    text-align: justify;
+}
+.text-box h1 {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+}
+.javanese-culture {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-top: 50px;
+}
+.javanese-culture img {
+    position: absolute;
+    left: 129px;
+    top: 799px;
+    width: 71px;
+    height: 75px;
+}
+.javanese-culture h1 {
+    position: absolute;
+    left: 190px;
+    top: 820px;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+.text-box2 p {
+    position: absolute;
+    text-align: justify;
+    left: 129px;
+    top: 918px;
+    font-size: 20px;
+}
+.text-box2 img {
+    position: relative;
+    left: 580px;
+    top: 100px;
+    width: 461px;
+    height: 352px;
+}
+.wayang2 {
+    position: absolute;
+    left: 290px;
+    top: 2px;
+    width: 71px;
+    height: 75px;
+}
+.wayang {
+    position: absolute;
+    width: 97.5px;
+    height: 121.88px;
+    left: 846.49px;
+    top: 50px;
+    transform: matrix(-0.97, -0.25, -0.25, 0.97, 0, 0);
+}
+.wayang3 {
+    position: absolute;
+    width: 101.97px;
+    height: 120.7px;
+    left: 900px;
+    top: 110px;
+    transform: rotate(-17.2deg);
+}
+.tari-img {
+    position: absolute;
+    width: 150.76px;
+    height: 122.33px;
+    left: 815.79px;
+    top: 430px;
+    transform: matrix(-0.99, -0.16, -0.16, 0.99, 0, 0);
+}
+.tari-img2 {
+    position: absolute;
+    width: 150.76px;
+    height: 122.33px;
+    left: 870px;
+    top: 430px;
+    transform: rotate(-9.11deg);
 }
