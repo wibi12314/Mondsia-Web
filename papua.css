@@ -288,6 +288,15 @@ nav ul li a:hover::after {
     font-family: 'Montserrat';
     font-size: 14px;
 }
+.boxpapua3 {
+    position: absolute;
+    width: 803px;
+    height: 717px;
+    left: 937px;
+    top: 1350px;
+    background: radial-gradient(50% 50% at 50% 50%, #A6C8FC 0%, rgba(81, 150, 255, 0) 100%);
+    z-index: -1;
+}
 .taripapua-col img{
     margin-left:auto;
     margin-right:auto;
@@ -301,7 +310,6 @@ nav ul li a:hover::after {
 }
 .taripapua-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-
 }    
 .row1 {
     display: flex;
@@ -336,6 +344,16 @@ nav ul li a:hover::after {
     padding: 0;
     font-family: 'Montserrat';
     font-size: 14px;
+}
+.boxpapua4 {
+    position: absolute;
+    width: 796px;
+    height: 679px;
+    left: -371px;
+    top: 1975px;
+    background: radial-gradient(50% 50% at 50% 50%, #FCC7AA 0%, rgba(255, 92, 1, 0) 100%);
+    z-index: -1;
+
 }
 .rumahpapua-col img{
     margin-left:auto;
@@ -381,6 +399,15 @@ nav ul li a:hover::after {
     padding: 0;
     font-family: 'Montserrat';
     font-size: 14px;
+}
+.boxpapua5 {
+    position: absolute;
+    width: 876px;
+    height: 732px;
+    left: 825px;
+    top: 2500px;
+    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
+    z-index: -1;
 }
 .sukupapua-col img{
     margin-left:auto;
