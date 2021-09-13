@@ -191,6 +191,11 @@ nav ul li a:hover::after {
     position: relative;
     cursor: pointer;
 }
+.textbox-btn:hover {
+    box-shadow: 0 0 20px 0 white;
+    border-radius: 33px;
+
+}
 /* landing budaya jawa */
 .javanese-culture {
     width: 80%;
@@ -344,6 +349,9 @@ nav ul li a:hover::after {
     text-align: justify;
     line-height: 22px;
     padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+
 }
 .tarijawa-col img{
     margin-left:auto;
@@ -393,6 +401,8 @@ nav ul li a:hover::after {
     text-align: justify;
     line-height: 22px;
     padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
 }
 .rumahjawa-col img {
     margin-left:auto;
@@ -440,6 +450,8 @@ nav ul li a:hover::after {
     text-align: justify;
     line-height: 22px;
     padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
 }
 .sukujawa-col img {
     margin-left:auto;
@@ -459,4 +471,4 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
 }
-/* end of page jawa */
+/* end of page */
