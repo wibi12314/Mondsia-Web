@@ -191,6 +191,10 @@ nav ul li a:hover::after {
     position: relative;
     cursor: pointer;
 }
+.papua-btn:hover {
+    box-shadow: 0 0 20px 0px white;
+    border-radius: 33px;
+}
 .papua-culture {
     width: 80%;
     margin: auto;
