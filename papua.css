@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Montserrat' sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: none;
+    justify-content: space-around;
+    height: 60px;
+    color:black;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+nav img {
+    width: 59px;
+    height: 67px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+
+/* hamburger menu */
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -6px;
+    top: -5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    transition: all 0.5s;
+
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/* responsive breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: none;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+
+    nav ul.slide{
+        transform: translateX(0);
+    }
+}
+/* end of navbar */
+
+/* page papua */
+.landing-papua img {
+    padding-top: 10px;
+    width: 1372px;
+    height: 653px;
+    filter: brightness(50%);
+}
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box p {
+    margin: 30px 0 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: justify;
+    font-family: 'montserrat';
+}
+.text-box h1 {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+}
+.papua-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 33px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: #FCEBC0;
+    position: relative;
+    cursor: pointer;
+}
+.papua-culture {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding-top: 50px;
+}
+.papua-culture h1 {
+    position: absolute;
+    left: 190px;
+    top: 820px;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+.textbox-papua p {
+    position: absolute;
+    text-align: justify;
+    left: 129px;
+    top: 918px;
+    font-size: 16px;
+    font-family: 'montserrat';
+}
+.boxpapua {
+    position: absolute;
+    width: 1166px;
+    height: 975px;
+    left: -626px;
+    top: 648px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFBC7E 0%, #6CADEA 0.01%, rgba(255, 255, 255, 0) 100%);
+    z-index: -1;
+}
+.boxpapua2 {
+    position: absolute;
+    width: 1400px;
+    height: 940px;
+    left: 638px;
+    top: 689px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFF7EF 0%, #EADD6C 0.01%, rgba(255, 255, 255, 0) 100%);
+}
+.img1 {
+    position: absolute;
+    width: 327px;
+    height: 174px;
+    left: 851px;
+    top: 791px;
+    border-radius: 23px;
+}
+.img2 {
+    position: absolute;
+    width: 292px;
+    height: 172px;
+    left: 798px;
+    top: 1073px;
+    border-radius: 26px;
+}
+.img3 {
+    position: absolute;
+    width: 268px;
+    height: 163px;
+    left: 426px;
+    top: 1222px;
+    border-radius: 33px;
+}
+.papua-culture img:hover {
+    box-shadow:  0 0 20px 0px blue;
+}
+/* tari kalimantan */
+.taripapua {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+}
+.taripapua h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+    padding-top: 500px;
+}
+.taripapua img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+.taripapua-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.taripapua-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.taripapua-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.taripapua-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.taripapua-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}    
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+.rumahpapua {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.rumahpapua h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+.rumahpapua img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+.rumahpapua-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.rumahpapua-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.rumahpapua-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.rumahpapua-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.rumahpapua-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}    
+.sukupapua {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sukupapua h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+.sukupapua img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+.sukupapua-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.sukupapua-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.sukupapua-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.sukupapua-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.sukupapua-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}

@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Montserrat' sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: none;
+    justify-content: space-around;
+    height: 60px;
+    color:black;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+nav img {
+    width: 59px;
+    height: 67px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+
+/* hamburger menu */
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -6px;
+    top: -5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    border-radius: 3px;
+    transition: all 0.5s;
+
+}
+
+/* hamburger menu animation */
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/* responsive breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: none;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+
+    nav ul.slide{
+        transform: translateX(0);
+    }
+}
+/* end of navbar */
+
+/* page kalimantan */
+
+.box6 {
+    position: absolute;
+    width: 803px;
+    height: 717px;
+    left: 937px;
+    top: 1300px;
+    background: radial-gradient(50% 50% at 50% 50%, #A6C8FC 0%, rgba(81, 150, 255, 0) 100%);
+    z-index: -1;
+}
+.box7 {
+    position: absolute;
+    width: 796px;
+    height: 679px;
+    left: -504px;
+    top: 1800px;
+    background: radial-gradient(50% 50% at 50% 50%, #FCC7AA 0%, rgba(255, 92, 1, 0) 100%);
+    z-index: -1;
+}
+.box8 {
+    position: absolute;
+    width: 973px;
+    height: 740px;
+    left: 878px;
+    top: 2350px;
+    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
+    z-index: -1;
+}
+.landing-kalimantan img {
+    padding-top: 10px;
+    width: 1372px;
+    height: 653px;
+    filter: brightness(50%);
+}
+.text-box3 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box3 p {
+    margin: 30px 0 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: justify;
+    font-family: 'Montserrat';
+}
+.text-box3 h1 {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+}
+.kalimantan-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 33px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: #FCEBC0;
+    position: relative;
+    cursor: pointer;
+}
+/* section kalimantanese culutre */
+.kalimantanese-culture h1 {
+    position: absolute;
+    left: 190px;
+    top: 820px;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+.kalimantanese-culture p {
+    position: absolute;
+    left: 107px;
+    top: 935px;
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+.kalimantanese-culture img {
+    position: absolute;
+    width: 613.27px;
+    height: 379.07px;
+    left: 698px;
+    top: 838.07px;
+}
+.kalimantanese-culture img:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+/* tari kalimantan */
+.tarikalimantan {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.tarikalimantan h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+    padding-top: 500px;
+}
+.tarikalimantan img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+.tarikalimantan-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.tarikalimantan-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.tarikalimantan-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.tarikalimantan-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.tarikalimantan-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}    
+.row6 {
+    display: flex;
+    justify-content: space-between;
+}
+/* rumah adat kalimantan */
+.rumahkalimantan {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.rumahkalimantan h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+.rumahkalimantan img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+.rumahkalimantan-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.rumahkalimantan-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+.rumahkalimantan-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.rumahkalimantan-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.rumahkalimantan-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}    
+.row7 {
+    display: flex;
+    justify-content: space-between;
+}
+/* suku adat kalimantan */
+.sukukalimantan {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.sukukalimantan h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+.sukukalimantan img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+    text-align: center;
+}
+.sukukalimantan-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.sukukalimantan-col p{
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+}
+.sukukalimantan-col img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block
+}
+.sukukalimantan-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+.sukukalimantan-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}    
+.row8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end of page kalimantan */
