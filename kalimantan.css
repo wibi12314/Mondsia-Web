@@ -399,3 +399,16 @@ nav ul li a:hover::after {
 }
 
 /* end of page kalimantan */
+
+/* responsive */
+@media(max-width: 767px) {
+    .row6 {
+        flex-direction: column;
+    }
+    .row7 {
+        flex-direction: column;
+    }
+    .row8 {
+        flex-direction: column;
+    }
+}
