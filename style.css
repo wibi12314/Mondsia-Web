@@ -104,11 +104,13 @@ nav ul li a:hover::after {
 }
 
 .menu-toggle input:checked ~ span:nth-child(2) {
-    transform: rotate(45deg) translate(-1px, -1px);
+    transform: rotate(45deg) translate(-1px, -1px);  
+
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {
     transform: rotate(-45deg) translate(-1px, 0);
+    
 }
 
 .menu-toggle input:checked ~ span:nth-child(3) {
@@ -134,16 +136,19 @@ nav ul li a:hover::after {
         position: absolute;
         right: 0;
         top: 0;
+        width: 50%;
         height: 100vh;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: none;
-        z-index: -1;
+        background-color: #24262b;
+        z-index: 1;
         transform: translateX(100%);
-        transition: all 1s;
+        transition: all 0,5s;
     }
-
+    nav ul li a {
+        color: white;
+    }
     nav ul.slide{
         transform: translateX(0);
     }
@@ -162,7 +167,8 @@ nav ul li a:hover::after {
 .landing img {
     width: 1318px;
     height: 502px;
-    padding-top: 10px
+    padding-top: 10px;
+    z-index: -1;
 }
 /* end of landing view section*/
 
@@ -269,6 +275,7 @@ nav ul li a:hover::after {
 /* end of landing page */
 
 /* footer */
+
 .container {
     max-width: 1170px;
     margin: auto;
@@ -329,5 +336,10 @@ ul {
 @media(max-width: 574px) {
     .footer-col {
         width: 100%;
+    }
+}
+@media(max-width: 767px) {
+    .row {
+        flex-direction: column;
     }
 }
