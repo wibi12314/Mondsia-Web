@@ -472,3 +472,16 @@ nav ul li a:hover::after {
     justify-content: space-between;
 }
 /* end of page */
+
+/* responsive */
+@media(max-width: 767px) {
+    .row3 {
+        flex-direction: column;
+    }
+    .row4 {
+        flex-direction: column;
+    }
+    .row5 {
+        flex-direction: column;
+    }
+}
