@@ -320,13 +320,13 @@ ul {
     color: white;
     padding-left: 10px;
 }
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
 }
-@media screen and (max-width: 574px) {
+@media(max-width: 574px) {
     .footer-col {
         width: 100%;
     }
