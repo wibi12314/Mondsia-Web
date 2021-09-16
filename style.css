@@ -167,10 +167,11 @@ nav ul li a:hover::after {
 }
 
 .landing img {
-    width: 1318px;
-    height: 502px;
-    padding-top: 10px;
-    z-index: -1;
+    min-height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 /* end of landing view section*/
 
@@ -185,9 +186,8 @@ nav ul li a:hover::after {
 .about h1 {
     font-size: 30px;
     font-weight: 600;
-    
+    font-family: 'Montserrat';
 }
-
 .about p {
     color: black;
     font-size: 14px;
@@ -195,7 +195,8 @@ nav ul li a:hover::after {
     line-height: 22px;
     padding: 10px;
     font-size: 18px;
-    padding-top: 40px
+    padding-top: 40px;
+    font-family: 'Montserrat';
 }
 
 .row {
@@ -254,10 +255,16 @@ nav ul li a:hover::after {
     padding-top: 50px;
     border-radius: none;
 }
-
+.culture h1 {
+    font-family: 'Montserrat';
+}
+.culture h3 {
+    font-family: 'Montserrat';
+}
 .culture p {
     font-size: 20px;
     padding-top: 20px;
+    font-family: 'Montserrat';
 }
 .culture col {
     flex-basis: 45%;
@@ -302,6 +309,12 @@ ul {
     font-weight: 500;
     position: relative;
 }
+.footer-col P {
+    text-align: justify;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #bbbbbb;
+}
 .footer-col h4::before {
     content: '';
     position: absolute;
@@ -334,14 +347,20 @@ ul {
         width: 50%;
         margin-bottom: 30px;
     }
-}
-@media(max-width: 574px) {
-    .footer-col {
-        width: 100%;
-    }
-}
-@media(max-width: 767px) {
     .row {
         flex-direction: column;
     }
 }
+@media(max-width: 576px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .landing img {
+        width: 105%;
+    }
+}
+
