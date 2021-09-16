@@ -187,9 +187,12 @@ nav ul li a:hover::after {
     z-index: -1;
 }
 .landing-kalimantan img {
-    padding-top: 10px;
-    width: 1372px;
-    height: 653px;
+    min-height: 75vh;
+    padding-top: 15px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
     filter: brightness(50%);
 }
 .text-box3 {
@@ -230,25 +233,26 @@ nav ul li a:hover::after {
 }
 /* section kalimantanese culutre */
 .kalimantanese-culture h1 {
-    position: absolute;
+    position: relative;
     left: 190px;
-    top: 820px;
+    top: 100px;
     font-size: 30px;
     font-family: 'Merienda', cursive;
 }
 .kalimantanese-culture p {
-    position: absolute;
+    position: relative;
     left: 107px;
-    top: 935px;
+    top: 150px;
     text-align: justify;
     font-family: 'Montserrat';
+
 }
 .kalimantanese-culture img {
-    position: absolute;
+    position: relative;
     width: 613.27px;
     height: 379.07px;
     left: 698px;
-    top: 838.07px;
+    top: 5px;
 }
 .kalimantanese-culture img:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -266,7 +270,7 @@ nav ul li a:hover::after {
     font-size: 30px;
     color: red;
     font-family: 'Merienda', cursive;
-    padding-top: 500px;
+    padding-top: 50px;
 }
 .tarikalimantan img {
     width: 225px;
@@ -407,6 +411,17 @@ nav ul li a:hover::after {
 
 /* responsive */
 @media(max-width: 767px) {
+    .row6 {
+        flex-direction: column;
+    }
+    .row7 {
+        flex-direction: column;
+    }
+    .row8 {
+        flex-direction: column;
+    }
+}
+@media(max-width: 576px) {
     .row6 {
         flex-direction: column;
     }
