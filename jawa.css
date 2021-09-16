@@ -159,8 +159,11 @@ nav ul li a:hover::after {
 
 /* page jawa */
 .landing-jawa img {
-    width: 1372px;
-    height: 654px;
+    min-height: 75vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
     padding-top: 10px;
     filter: brightness(50%);
 }
@@ -240,7 +243,7 @@ nav ul li a:hover::after {
     width: 461px;
     height: 352px;
 }
-.wayang {
+.wayang2 {
     position: absolute;
     width: 97.5px;
     height: 121.88px;
@@ -248,7 +251,7 @@ nav ul li a:hover::after {
     top: 50px;
     transform: matrix(-0.97, -0.25, -0.25, 0.97, 0, 0);
 }
-.wayang2 {
+.wayang {
     position: absolute;
     left: 290px;
     top: 2px;
@@ -296,6 +299,7 @@ nav ul li a:hover::after {
     top: 1156.08px;
     background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
     transform: rotate(-23.06deg);
+    z-index: -1;
 }
 .box3 {
     position: absolute;
@@ -337,7 +341,7 @@ nav ul li a:hover::after {
     font-size: 30px;
     color: red;
     font-family: 'Merienda', cursive;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .tarijawa img {
     width: 225px;
@@ -487,6 +491,20 @@ nav ul li a:hover::after {
         flex-direction: column;
     }
     .row5 {
+        flex-direction: column;
+    }
+}
+@media(max-width: 576px) {
+    .row3 {
+        flex-direction: column;
+    }
+    .row4 {
+        flex-direction: column;
+    }
+    .row5 {
+        flex-direction: column;
+    }
+    .javanese-culture img {
         flex-direction: column;
     }
 }
