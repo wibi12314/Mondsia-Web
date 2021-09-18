@@ -213,7 +213,7 @@ nav ul li a:hover::after {
 }
 .javanese-culture img {
     position: absolute;
-    left: 129px;
+    left: 60px;
     top: 799px;
     width: 71px;
     height: 75px;
@@ -223,23 +223,21 @@ nav ul li a:hover::after {
 
 }
 .javanese-culture h1 {
-    position: absolute;
-    left: 190px;
-    top: 820px;
+    text-align: left;
     font-size: 30px;
     font-family: 'Merienda', cursive;
 }
 .text-box2 p {
-    position: absolute;
-    text-align: justify;
-    left: 129px;
-    top: 918px;
-    font-size: 20px;
+    text-align: left;
+    justify-content: justify;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    margin-top: 50px;
 }
 .text-box2 img {
-    position: relative;
-    left: 580px;
-    top: 50px;
+    position: absolute;
+    left: 700px;
+    top: 875px;
     width: 461px;
     height: 352px;
 }
@@ -253,7 +251,7 @@ nav ul li a:hover::after {
 }
 .wayang {
     position: absolute;
-    left: 290px;
+    left: 325px;
     top: 2px;
     width: 71px;
     height: 75px;
@@ -341,7 +339,7 @@ nav ul li a:hover::after {
     font-size: 30px;
     color: red;
     font-family: 'Merienda', cursive;
-    padding-top: 150px;
+    padding-top: 250px;
 }
 .tarijawa img {
     width: 225px;
@@ -504,7 +502,5 @@ nav ul li a:hover::after {
     .row5 {
         flex-direction: column;
     }
-    .javanese-culture img {
-        flex-direction: column;
-    }
+    
 }
