@@ -27,11 +27,13 @@ nav {
     padding-right: 25px;
     padding-top: 15px;
 }
+.logo h3 {
+    font-family: 'Merienda', cursive;
+}
 
 nav img {
     width: 59px;
     height: 67px;
-
 }
 
 nav ul {
@@ -106,11 +108,15 @@ nav ul li a:hover::after {
 
 .menu-toggle input:checked ~ span:nth-child(2) {
     transform: rotate(45deg) translate(-1px, -1px);  
+    z-index: 1;
+    color: white;
 
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {
     transform: rotate(-45deg) translate(-1px, 0);
+    z-index: 1;
+    color: white;
     
 }
 
@@ -142,7 +148,7 @@ nav ul li a:hover::after {
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        background-color: #24262b;
+        background-color:#24262b;
         z-index: 1;
         transform: translateX(100%);
         transition: all 0,5s;
@@ -158,7 +164,7 @@ nav ul li a:hover::after {
 /* end of navbar */
 
 /* landing view section*/
-.landing h2 {
+.landing h1 {
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
