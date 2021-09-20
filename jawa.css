@@ -163,11 +163,8 @@ nav ul li a:hover::after {
 
 /* page jawa */
 .landing-jawa img {
-    min-height: 75vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    width: 1372px;
+    height: 654px;
     padding-top: 10px;
     filter: brightness(50%);
 }
@@ -214,11 +211,12 @@ nav ul li a:hover::after {
     margin: auto;
     text-align: justify;
     padding-top: 50px;
+    
 }
 .javanese-culture img {
     position: absolute;
     left: 60px;
-    top: 799px;
+    top: 760px;
     width: 71px;
     height: 75px;
 }
@@ -495,16 +493,15 @@ nav ul li a:hover::after {
     .row5 {
         flex-direction: column;
     }
+    .box3 {
+        min-height: 75vh;
+    }
+    .landing-jawa img {
+        min-height: 75vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
 }
-@media(max-width: 576px) {
-    .row3 {
-        flex-direction: column;
-    }
-    .row4 {
-        flex-direction: column;
-    }
-    .row5 {
-        flex-direction: column;
-    }
-    
-}
+

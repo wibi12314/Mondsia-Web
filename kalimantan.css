@@ -425,14 +425,3 @@ nav ul li a:hover::after {
         flex-direction: column;
     }
 }
-@media(max-width: 576px) {
-    .row6 {
-        flex-direction: column;
-    }
-    .row7 {
-        flex-direction: column;
-    }
-    .row8 {
-        flex-direction: column;
-    }
-}
