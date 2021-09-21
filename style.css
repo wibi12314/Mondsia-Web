@@ -168,7 +168,6 @@ nav ul li a:hover::after {
     text-align: center;
     padding-top: 50px;
     font-size: 40px;
-    color:red;
     font-family: 'Merienda', cursive;
 }
 
@@ -178,6 +177,9 @@ nav ul li a:hover::after {
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.landing span {
+    color:red
 }
 /* end of landing view section*/
 

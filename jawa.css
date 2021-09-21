@@ -210,8 +210,11 @@ nav ul li a:hover::after {
     width: 80%;
     margin: auto;
     text-align: justify;
-    padding-top: 50px;
-    
+    padding-top: 50px;  
+}
+.java-heading {
+    display: flex;
+    align-items: center;
 }
 .javanese-culture img {
     position: absolute;
@@ -219,6 +222,9 @@ nav ul li a:hover::after {
     top: 760px;
     width: 71px;
     height: 75px;
+}
+.javanese-culture span {
+    color: red;
 }
 .javanese-culture img:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -389,22 +395,22 @@ nav ul li a:hover::after {
     text-align: center;
     padding-top: 100px;
 }
-.rumahjawa h1 {
+.rumahjawa-heading {
+    display: inline-flex;
+    align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: red;
     font-family: 'Merienda', cursive;
 }
-.rumahjawa img {
-    width: 270px;
-    height: 142px;
-    border-radius: 18px;
+.rumahjawa-heading img {
+    width: 55px;
+    height: 49px;
 }
 .rumahjawa-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5px;
-    text-align: left;
 }
 .rumahjawa-col p {
     text-align: justify;
@@ -414,6 +420,9 @@ nav ul li a:hover::after {
     font-size: 14px;
 }
 .rumahjawa-col img {
+    width: 270px;
+    height: 142px;
+    border-radius: 18px;
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -438,16 +447,17 @@ nav ul li a:hover::after {
     text-align: center;
     padding-top: 100px;
 }
-.sukujawa h1 {
+.sukujawa-heading {
+    display: inline-flex;
+    align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: red;
     font-family: 'Merienda', cursive;
 }
-.sukujawa img {
-    width: 270px;
-    height: 142px;
-    border-radius: 18px;
+.sukujawa-heading img {
+    width: 55px;
+    height: 49px;
 }
 .sukujawa-col {
     flex-basis: 31%;
@@ -463,6 +473,9 @@ nav ul li a:hover::after {
     font-size: 14px;
 }
 .sukujawa-col img {
+    width: 270px;
+    height: 142px;
+    border-radius: 18px;
     margin-left:auto;
     margin-right:auto;
     display:block;

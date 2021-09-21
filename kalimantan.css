@@ -251,6 +251,9 @@ nav ul li a:hover::after {
     font-family: 'Montserrat';
 
 }
+.kalimantanese-culture span {
+    color: red;
+}
 .kalimantanese-culture img {
     position: relative;
     width: 613.27px;

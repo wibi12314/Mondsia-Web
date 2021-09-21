@@ -210,6 +210,9 @@ nav ul li a:hover::after {
     text-align: justify;
     padding-top: 50px;
 }
+.papua-culture span {
+    color: red;
+}
 .papua-culture h1 {
     position: absolute;
     left: 190px;
