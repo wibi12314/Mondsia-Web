@@ -161,4 +161,251 @@ nav ul li a:hover::after {
         transform: translateX(0);
     }
 }
+
 /* end of navbar */
+/* page sumatra */
+.landing-sumatra img {
+    width: 1372px;
+    height: 654px;
+    padding-top: 10px;
+    filter: brightness(50%);
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box p {
+    margin: 30px 0 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: justify;
+    font-family: 'Montserrat';
+}
+
+.text-box h1 {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+}
+
+.sumatra-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 33px;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: #FCEBC0;
+    position: relative;
+    cursor: pointer;
+}
+
+/* sumatra culture */
+
+.sumatra-culture h1 {
+    position: absolute;
+    left: 190px;
+    top: 820px;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
+
+.sumatra-culture p {
+    position: absolute;
+    left: 107px;
+    top: 935px;
+    text-align: justify;
+    font-family: 'Montserrat';
+}
+
+.sumatra-culture img {
+    position: absolute;
+    width: 613.27px;
+    height: 379.07px;
+    left: 698px;
+    top: 838.07px;
+}
+
+.sumatra-culture img:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+/* tari adat sumatra */
+.tarisumatra {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.tarisumatra h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+    padding-top: 500px;
+}
+
+.tarisumatra img {
+    width: 225px;
+    height: 137px;
+    border-radius: 18px;
+}
+
+.tarisumatra-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.tarisumatra-col p {
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.tarisumatra-col img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.tarisumatra-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: 'Merienda', cursive;
+}
+
+.tarisumatra-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.row6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* rumah adat sumatra */
+.rumahsumatra {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.rumahsumatra h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+
+.rumahsumatra img {
+    width: 270px;
+    height: 142px;
+    border-radius: 18px;
+}
+
+.rumahsumatra-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.rumahsumatra-col p {
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+}
+
+.rumahsumatra-col img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.rumahsumatra-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rumahsumatra-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* suku adat sumatra */
+.sukusumatra {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sukusumatra h1 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: 'Merienda', cursive;
+}
+
+.sukusumatra img {
+    width: 270px;
+    height: 142px;
+    border-radius: 18px;
+}
+
+.sukusumatra-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.sukusumatra-col p {
+    text-align: justify;
+    line-height: 22px;
+    padding: 0;
+}
+
+.sukusumatra-col img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.sukusumatra-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sukusumatra-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.row5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end of page sumatra *
