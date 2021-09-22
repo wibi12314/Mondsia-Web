@@ -377,7 +377,7 @@ nav ul li a:hover::after {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
-    font-style: 'Merienda', cursive;
+    font-family: 'Montserrat';
 }
 .tarijawa-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -431,6 +431,7 @@ nav ul li a:hover::after {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Montserrat';
 }
 .rumahjawa-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
@@ -484,6 +485,7 @@ nav ul li a:hover::after {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Montserrat';
 }
 .sukujawa-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
