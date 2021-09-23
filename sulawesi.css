@@ -162,3 +162,263 @@ nav ul li a:hover::after {
     }
 }
 /* end of navbar */
+
+    #background {
+        width: 0px;
+        height: 0px;
+    }
+    .transbox {
+        background-color: black;
+        opacity: 0.6;
+    }
+    .transbox p {
+        margin: 0px;
+        font-weight: bold;
+        font-size: xx-large;
+        color: white;
+        opacity: 1;
+    }
+    .transbox p2 {
+        margin-left: 200px;
+        font-weight: bold;
+        font-size: x-large;
+        color: white;
+        opacity: 1;
+    }
+    #Culture {
+        height: 90px;
+        margin-top: 100px;
+        margin-left: 150px;
+        font-size: xx-large;
+        float: left;
+        color: red;
+    }
+    #Senjata {
+        width: 262px;
+        height: 0px;
+        margin-top: 130px;
+        margin-right: 100px;
+        float: right;
+    }
+    #CultureContent {
+        margin-top: 0px;
+        margin-left: 80px;
+        height: 0px;
+        float: left;
+        font-size: x-large;
+    }
+    #TPAdat {
+        width: 275px;
+        height: 0px;
+        margin-top: 200px;
+        margin-left: 80px;
+        float: left;
+    }
+    #Desa {
+        width: 275px;
+        height: 0px;
+        margin-top: 200px;
+        margin-right: 150px;
+        float: right;
+    }
+    #tAdat {
+        margin-top: 500px;
+        color:red;
+        font-size: xx-large;
+    }
+    #tgbT {
+        width: 240px;
+        margin-top: 40px;
+        margin-left: 70px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #tpT {
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 129px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #tpjT {
+        margin-top: 40px;
+        margin-left: 180px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #tgbG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 40px;
+        float: left;
+    }
+    #tpG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 340px;
+        float: left;
+    }
+    #tpjG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 320px;
+        float: left;
+    }
+    #tgbt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #tpt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #tpjt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: x-large;
+        float: left;
+    }
+    #rAdat {
+        margin-top: 200px;
+        color:red;
+        font-size: xx-large;
+    }
+    #rtT {
+        width: 240px;
+        margin-top: 40px;
+        margin-left: 100px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #rlT {
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 99px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #rsT {
+        margin-top: 40px;
+        margin-left: 170px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #rtG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 40px;
+        float: left;
+    }
+    #rlG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 340px;
+        float: left;
+    }
+    #rsG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 320px;
+        float: left;
+    }
+    #rtt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #rlt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #rst {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: x-large;
+        float: left;
+    }
+    #SD {
+        margin-top: 200px;
+        color:red;
+        font-size: xx-large;
+    }
+    #sbT {
+        width: 240px;
+        margin-top: 40px;
+        margin-left: 120px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #smT {
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 79px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #stT {
+        margin-top: 40px;
+        margin-left: 135px;
+        font-size: x-large;
+        font-weight: bold;
+        float: left;
+    }
+    #sbG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 40px;
+        float: left;
+    }
+    #smG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 340px;
+        float: left;
+    }
+    #stG {
+        width: 0px;
+        margin-top: 30px;
+        margin-left: 320px;
+        float: left;
+    }
+    #sbt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #smt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: x-large;
+        float: left;
+    }
+    #stt {
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: x-large;
+        float: left;
+    }
