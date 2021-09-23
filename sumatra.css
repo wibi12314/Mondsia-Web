@@ -264,7 +264,7 @@ nav ul li a:hover::after {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5px;
-    text-align: left;
+    text-align: center;
 }
 
 .tarisumatra-col p {
