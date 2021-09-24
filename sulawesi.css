@@ -173,17 +173,17 @@ nav ul li a:hover::after {
     }
     .transbox p {
         margin: 0px;
-        font-weight: bold;
         font-size: xx-large;
         color: white;
         opacity: 1;
+        font-family: 'Merienda', cursive;
     }
     .transbox p2 {
         margin-left: 200px;
-        font-weight: bold;
         font-size: x-large;
         color: white;
         opacity: 1;
+        font-family:'Montserrat', sans-serif;
     }
     #Culture {
         height: 90px;
@@ -192,6 +192,7 @@ nav ul li a:hover::after {
         font-size: xx-large;
         float: left;
         color: red;
+        font-family: 'Merienda', cursive;
     }
     #Senjata {
         width: 262px;
@@ -206,6 +207,7 @@ nav ul li a:hover::after {
         height: 0px;
         float: left;
         font-size: x-large;
+        font-family:'Montserrat', sans-serif;
     }
     #TPAdat {
         width: 275px;
@@ -225,6 +227,7 @@ nav ul li a:hover::after {
         margin-top: 500px;
         color:red;
         font-size: xx-large;
+        font-family: 'Merienda', cursive;
     }
     #tgbT {
         width: 240px;
@@ -233,21 +236,24 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #tpT {
-        width: 150px;
+        width: 170px;
         margin-top: 40px;
         margin-left: 129px;
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #tpjT {
         margin-top: 40px;
-        margin-left: 180px;
+        margin-left: 160px;
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #tgbG {
         width: 0px;
@@ -273,6 +279,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #tpt {
         width: 300px;
@@ -280,6 +287,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #tpjt {
         width: 300px;
@@ -287,11 +295,13 @@ nav ul li a:hover::after {
         margin-left: 20px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rAdat {
         margin-top: 200px;
         color:red;
         font-size: xx-large;
+        font-family: 'Merienda', cursive;
     }
     #rtT {
         width: 240px;
@@ -300,6 +310,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rlT {
         width: 150px;
@@ -308,6 +319,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rsT {
         margin-top: 40px;
@@ -315,6 +327,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rtG {
         width: 0px;
@@ -340,6 +353,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rlt {
         width: 300px;
@@ -347,6 +361,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #rst {
         width: 300px;
@@ -354,11 +369,13 @@ nav ul li a:hover::after {
         margin-left: 20px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #SD {
         margin-top: 200px;
         color:red;
         font-size: xx-large;
+        font-family: 'Merienda', cursive;
     }
     #sbT {
         width: 240px;
@@ -367,6 +384,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #smT {
         width: 200px;
@@ -375,6 +393,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #stT {
         margin-top: 40px;
@@ -382,6 +401,7 @@ nav ul li a:hover::after {
         font-size: x-large;
         font-weight: bold;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #sbG {
         width: 0px;
@@ -407,6 +427,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #smt {
         width: 300px;
@@ -414,6 +435,7 @@ nav ul li a:hover::after {
         margin-left: 40px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
     #stt {
         width: 300px;
@@ -421,4 +443,5 @@ nav ul li a:hover::after {
         margin-left: 20px;
         font-size: x-large;
         float: left;
+        font-family:'Montserrat', sans-serif;
     }
