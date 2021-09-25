@@ -213,27 +213,27 @@ nav ul li a:hover::after {
     padding-top: 50px;  
 }
 .java-heading {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
-.javanese-culture img {
-    position: absolute;
-    left: 60px;
-    top: 760px;
+.java-heading img {
     width: 71px;
     height: 75px;
+}
+.java-heading h1 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
 }
 .javanese-culture span {
     color: red;
 }
-.javanese-culture img:hover {
+.text-box2 img:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 
 }
-.javanese-culture h1 {
-    text-align: left;
-    font-size: 30px;
-    font-family: 'Merienda', cursive;
+.text-box2 {
+    display: flex;
 }
 .text-box2 p {
     text-align: left;
@@ -245,78 +245,21 @@ nav ul li a:hover::after {
 .text-box2 img {
     position: absolute;
     left: 700px;
-    top: 875px;
-    width: 461px;
-    height: 352px;
-}
-.wayang2 {
-    position: absolute;
-    width: 97.5px;
-    height: 121.88px;
-    left: 846.49px;
-    top: 50px;
-    transform: matrix(-0.97, -0.25, -0.25, 0.97, 0, 0);
-}
-.wayang {
-    position: absolute;
-    left: 325px;
-    top: 2px;
-    width: 71px;
-    height: 75px;
-}
-.wayang3 {
-    position: absolute;
-    width: 101.97px;
-    height: 120.7px;
-    left: 900px;
-    top: 110px;
-    transform: rotate(-17.2deg);
-}
-.tari-img {
-    position: absolute;
-    width: 150.76px;
-    height: 122.33px;
-    left: 815.79px;
-    top: 430px;
-    transform: matrix(-0.99, -0.16, -0.16, 0.99, 0, 0);
-}
-.tari-img2 {
-    position: absolute;
-    width: 150.76px;
-    height: 122.33px;
-    left: 870px;
-    top: 430px;
-    transform: rotate(-9.11deg);
+    top: 800px;
+    width: 560px;
+    height: 456px;
 }
 .box1 {
-    position: absolute;
-    width: 810px;
-    height: 813px;
-    left: 1011px;
-    top: 706px;
-    background: radial-gradient(50% 50% at 50% 50%, #FFB1B1 0%, rgba(253, 73, 73, 0) 100%);
-    z-index: -1;
-}
-.box2 {
     position: absolute;
     width: 876px;
     height: 658.41px;
     left: -536px;
     top: 1156.08px;
-    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #A6C8FC 0%, rgba(81, 150, 255, 0) 100%);
     transform: rotate(-23.06deg);
     z-index: -1;
 }
-.box3 {
-    position: absolute;
-    width: 803px;
-    height: 717px;
-    left: 937px;
-    top: 1479px;
-    background: radial-gradient(50% 50% at 50% 50%, #A6C8FC 0%, rgba(81, 150, 255, 0) 100%);
-    z-index: -1;
-}
-.box4 {
+.box2 {
     position: absolute;
     width: 796px;
     height: 679px;
@@ -325,22 +268,12 @@ nav ul li a:hover::after {
     background: radial-gradient(50% 50% at 50% 50%, #FCC7AA 0%, rgba(255, 92, 1, 0) 100%);
     z-index: -1;
 }
-.box5 {
-    position: absolute;
-    width: 876px;
-    height: 732px;
-    left: 825px;
-    top: 2550px;
-    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
-    z-index: -1;
-}
 
 /* tari adat jawa */
 .tarijawa {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
 }
 .tarijawa h1 {
     text-align: center;
@@ -518,5 +451,19 @@ nav ul li a:hover::after {
         background-size: cover;
         position: relative;
     }
+    .text-box2 img {
+        flex-direction: column;
+    }
+    .box1 {
+        position: relative;
+        width: 810px;
+        height: 813px;
+        left: 1011px;
+        top: 706px;
+        background: radial-gradient(50% 50% at 50% 50%, #FFB1B1 0%, rgba(253, 73, 73, 0) 100%);
+        z-index: -1;
+
+    }
+
 }
 
