@@ -163,16 +163,17 @@ nav ul li a:hover::after {
 
 /* page kalimantan */
 
-.box6 {
+.box1 {
     position: absolute;
-    width: 803px;
-    height: 717px;
-    left: 937px;
-    top: 1300px;
+    width: 876px;
+    height: 658.41px;
+    left: -536px;
+    top: 1156.08px;
     background: radial-gradient(50% 50% at 50% 50%, #A6C8FC 0%, rgba(81, 150, 255, 0) 100%);
+    transform: rotate(-23.06deg);
     z-index: -1;
 }
-.box7 {
+.box2 {
     position: absolute;
     width: 796px;
     height: 679px;
@@ -181,15 +182,7 @@ nav ul li a:hover::after {
     background: radial-gradient(50% 50% at 50% 50%, #FCC7AA 0%, rgba(255, 92, 1, 0) 100%);
     z-index: -1;
 }
-.box8 {
-    position: absolute;
-    width: 973px;
-    height: 740px;
-    left: 878px;
-    top: 2350px;
-    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
-    z-index: -1;
-}
+
 .landing-kalimantan img {
     min-height: 75vh;
     padding-top: 15px;
