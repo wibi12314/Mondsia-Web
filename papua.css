@@ -237,14 +237,7 @@ nav ul li a:hover::after {
     background: radial-gradient(50% 50% at 50% 50%, #FFBC7E 0%, #6CADEA 0.01%, rgba(255, 255, 255, 0) 100%);
     z-index: -1;
 }
-.boxpapua2 {
-    position: absolute;
-    width: 1400px;
-    height: 940px;
-    left: 638px;
-    top: 689px;
-    background: radial-gradient(50% 50% at 50% 50%, #FFF7EF 0%, #EADD6C 0.01%, rgba(255, 255, 255, 0) 100%);
-}
+
 .img1 {
     position: absolute;
     width: 327px;
@@ -427,15 +420,7 @@ nav ul li a:hover::after {
     font-family: 'Montserrat';
     font-size: 14px;
 }
-.boxpapua5 {
-    position: absolute;
-    width: 876px;
-    height: 732px;
-    left: 825px;
-    top: 2500px;
-    background: radial-gradient(50% 50% at 50% 50%, #CEFFE8 0%, rgba(98, 255, 180, 0) 100%);
-    z-index: -1;
-}
+
 .sukupapua-col img{
     margin-left:auto;
     margin-right:auto;
