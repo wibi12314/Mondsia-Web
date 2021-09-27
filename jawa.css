@@ -222,33 +222,28 @@ nav ul li a:hover::after {
 }
 .java-heading h1 {
     text-align: left;
+    align-items: center;
     font-size: 30px;
     font-family: 'Merienda', cursive;
 }
 .javanese-culture span {
     color: red;
 }
-.text-box2 img:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-
-}
 .text-box2 {
+    position: relative;
+    width: 100%;
     display: flex;
-}
-.text-box2 p {
-    text-align: left;
-    justify-content: justify;
-    font-size: 18px;
-    font-family: 'Montserrat';
-    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 .text-box2 img {
-    position: absolute;
-    left: 700px;
-    top: 800px;
-    width: 560px;
-    height: 456px;
+    width: 544px;
+    height: 415px;
 }
+.text-box2 p {
+    font-size: 21px;
+}
+
 .circle1 {
     position: absolute;
     width: 1000px;
@@ -280,7 +275,7 @@ nav ul li a:hover::after {
     font-size: 30px;
     color: red;
     font-family: 'Merienda', cursive;
-    padding-top: 250px;
+    padding-top: 150px;
 }
 .tarijawa img {
     width: 225px;
@@ -451,9 +446,6 @@ nav ul li a:hover::after {
         background-size: cover;
         position: relative;
         width: 100%;
-    }
-    .text-box2 img {
-        flex-direction: column;
     }
     .text-box2 p {
         font-size: 13px;
