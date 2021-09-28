@@ -411,5 +411,15 @@ nav ul li a:hover::after {
     display: flex;
     justify-content: space-between;
 }
-
+@media(max-width: 767px) {
+    .row3 {
+        flex-direction: column;
+    }
+    .row4 {
+        flex-direction: column;
+    }
+    .row5 {
+        flex-direction: column;
+    }     
+}
 /* end of page sumatra *
